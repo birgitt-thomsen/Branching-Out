@@ -37,8 +37,8 @@ def filter_users_by_email(data, email):
 
 if __name__ == "__main__":
     filter_option = input(
-        "What would you like to filter by? (Fields 'name', 'age' and 'email "
-        "are supported): ").strip().lower()
+        "What would you like to filter by? (Fields 'name', 'age' and "
+        "'email' are supported): ").strip().lower()
 
     users = load_data()
 
